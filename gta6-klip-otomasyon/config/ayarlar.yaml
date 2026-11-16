@@ -1,0 +1,20 @@
+# Genel ayarlar. Anahtarlar burada DEGIL, .env / GitHub Secrets icinde durur.
+
+oyun:
+  # Twitch kategori adi birebir eslesmelidir. Cikista kesin ad belli olunca
+  # listeye eklenir; ilk bulunan kullanilir.
+  twitch_kategori_adlari:
+    - "Grand Theft Auto VI"
+    - "Grand Theft Auto 6"
+  # YouTube'da canli yayin aramasi icin sorgular.
+  # DIKKAT: her sorgu x her dil = 100 kota birimi (gunluk limit 10.000).
+  youtube_sorgular:
+    - "GTA 6"
+
+# Taranacak yayin dilleri
+diller: [tr, en]
+
+kesif:
+  youtube_sorgu_basina_sonuc: 50   # en fazla 50
+  twitch_dil_basina_sayfa: 2       # sayfa basina 100 yayin
+  min_izleyici: 5                  # bunun altindaki yayinlar listeye girmez

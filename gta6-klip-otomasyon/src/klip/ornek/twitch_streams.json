@@ -1,0 +1,76 @@
+{
+ "data": [
+  {
+   "id": "s1001",
+   "user_id": "1001",
+   "user_login": "ornek_tr_yayinci1",
+   "user_name": "OrnekTRYayinci1",
+   "game_id": "900001",
+   "type": "live",
+   "title": "GTA 6 İLK GÜN! Hikayeye başlıyoruz",
+   "viewer_count": 18400,
+   "language": "tr",
+   "tags": []
+  },
+  {
+   "id": "s1002",
+   "user_id": "1002",
+   "user_login": "ornek_tr_yayinci2",
+   "user_name": "OrnekTRYayinci2",
+   "game_id": "900001",
+   "type": "live",
+   "title": "GTA 6 sabaha kadar",
+   "viewer_count": 5200,
+   "language": "tr",
+   "tags": []
+  },
+  {
+   "id": "s1003",
+   "user_id": "1003",
+   "user_login": "ornek_tr_kucuk",
+   "user_name": "OrnekTRKucuk",
+   "game_id": "900001",
+   "type": "live",
+   "title": "gta 6 deniyorum",
+   "viewer_count": 3,
+   "language": "tr",
+   "tags": []
+  },
+  {
+   "id": "s2001",
+   "user_id": "2001",
+   "user_login": "sample_en_streamer1",
+   "user_name": "SampleENStreamer1",
+   "game_id": "900001",
+   "type": "live",
+   "title": "GTA 6 DAY ONE - full story playthrough",
+   "viewer_count": 96500,
+   "language": "en",
+   "tags": []
+  },
+  {
+   "id": "s2002",
+   "user_id": "2002",
+   "user_login": "sample_en_streamer2",
+   "user_name": "SampleENStreamer2",
+   "game_id": "900001",
+   "type": "live",
+   "title": "GTA VI first look, chaos only",
+   "viewer_count": 41200,
+   "language": "en",
+   "tags": []
+  },
+  {
+   "id": "s2003",
+   "user_id": "2003",
+   "user_login": "sample_en_streamer3",
+   "user_name": "SampleENStreamer3",
+   "game_id": "900001",
+   "type": "live",
+   "title": "chill GTA 6 exploring",
+   "viewer_count": 870,
+   "language": "en",
+   "tags": []
+  }
+ ]
+}

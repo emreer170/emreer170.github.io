@@ -1,0 +1,37 @@
+# Kesif taramasini zamanli calistirir ve aday listesini depoya kaydeder.
+# Bu dosya, proje kendi deposunun kokune tasindiginda devreye girer.
+name: Kesif
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # 6 saatte bir (YouTube kotasi: ~200 birim/calisma)
+  workflow_dispatch:          # Actions sekmesinden elle calistirma
+
+permissions:
+  contents: write
+
+concurrency: kesif
+
+jobs:
+  kesif:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - run: pytest -q
+      - run: klip izin dogrula
+      - run: klip kesif
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+      - name: Aday listesini kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/adaylar.json data/adaylar.csv
+          git diff --cached --quiet || git commit -m "Kesif: aday listesi guncellendi"
+          git push

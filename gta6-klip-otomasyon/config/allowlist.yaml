@@ -1,0 +1,9 @@
+# IZIN LISTESI (allowlist)
+# Sistem YALNIZCA bu listedeki, aktif ve kaniti olan yayincilarin icerigini isler.
+# Elle duzenleyebilir ya da "klip izin ekle ..." komutunu kullanabilirsin.
+#
+# izin_turu:
+#   acik_politika -> yayincinin herkese acik klip/yeniden kullanim politikasi var
+#   yazili_onay   -> yayinci sana yazili (e-posta/DM) izin verdi
+# kanit: politikanin linki ya da onay ekran goruntusunun/e-postanin yeri (ZORUNLU)
+yayincilar: []

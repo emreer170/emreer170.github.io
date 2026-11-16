@@ -1,0 +1,63 @@
+{
+ "items": [
+  {
+   "id": "UC_ornek_tr_1",
+   "snippet": {
+    "country": "TR"
+   },
+   "statistics": {
+    "subscriberCount": "845000",
+    "hiddenSubscriberCount": false
+   }
+  },
+  {
+   "id": "UC_ornek_tr_2",
+   "snippet": {
+    "country": "TR"
+   },
+   "statistics": {
+    "subscriberCount": "120000",
+    "hiddenSubscriberCount": false
+   }
+  },
+  {
+   "id": "UC_sample_en_1",
+   "snippet": {
+    "country": "US"
+   },
+   "statistics": {
+    "subscriberCount": "3100000",
+    "hiddenSubscriberCount": false
+   }
+  },
+  {
+   "id": "UC_sample_en_2",
+   "snippet": {
+    "country": "GB"
+   },
+   "statistics": {
+    "hiddenSubscriberCount": true
+   }
+  },
+  {
+   "id": "UC_sample_es_1",
+   "snippet": {
+    "country": "ES"
+   },
+   "statistics": {
+    "subscriberCount": "500000",
+    "hiddenSubscriberCount": false
+   }
+  },
+  {
+   "id": "UC_sample_en_3",
+   "snippet": {
+    "country": "US"
+   },
+   "statistics": {
+    "subscriberCount": "9000",
+    "hiddenSubscriberCount": false
+   }
+  }
+ ]
+}

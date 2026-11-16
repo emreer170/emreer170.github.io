@@ -1,0 +1,74 @@
+{
+ "items": [
+  {
+   "id": "v_tr1",
+   "snippet": {
+    "channelId": "UC_ornek_tr_1",
+    "channelTitle": "Örnek TR Kanal 1",
+    "title": "GTA 6 CANLI YAYIN - İlk Bakış Türkçe"
+   },
+   "liveStreamingDetails": {
+    "concurrentViewers": "12700"
+   }
+  },
+  {
+   "id": "v_tr2",
+   "snippet": {
+    "channelId": "UC_ornek_tr_2",
+    "channelTitle": "Ornek TR Kanal 2",
+    "title": "GTA 6 live",
+    "defaultAudioLanguage": "tr"
+   },
+   "liveStreamingDetails": {
+    "concurrentViewers": "2100"
+   }
+  },
+  {
+   "id": "v_en1",
+   "snippet": {
+    "channelId": "UC_sample_en_1",
+    "channelTitle": "Sample EN Channel 1",
+    "title": "GTA 6 LIVE - Day One Walkthrough Part 1",
+    "defaultAudioLanguage": "en-US"
+   },
+   "liveStreamingDetails": {
+    "concurrentViewers": "58300"
+   }
+  },
+  {
+   "id": "v_en2",
+   "snippet": {
+    "channelId": "UC_sample_en_2",
+    "channelTitle": "Sample EN Channel 2",
+    "title": "GTA 6 online heists with viewers"
+   },
+   "liveStreamingDetails": {
+    "concurrentViewers": "6400"
+   }
+  },
+  {
+   "id": "v_es1",
+   "snippet": {
+    "channelId": "UC_sample_es_1",
+    "channelTitle": "Canal Ejemplo ES",
+    "title": "GTA 6 EN DIRECTO",
+    "defaultAudioLanguage": "es"
+   },
+   "liveStreamingDetails": {
+    "concurrentViewers": "9900"
+   }
+  },
+  {
+   "id": "v_bitti",
+   "snippet": {
+    "channelId": "UC_sample_en_3",
+    "channelTitle": "Sample EN Channel 3",
+    "title": "GTA 6 stream (ended)",
+    "defaultAudioLanguage": "en"
+   },
+   "liveStreamingDetails": {
+    "actualEndTime": "2026-11-19T10:00:00Z"
+   }
+  }
+ ]
+}
